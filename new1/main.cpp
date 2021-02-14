@@ -9,6 +9,11 @@ return num1*num2 ;
 double divide(double num1,double num2){
 return num1/num2;
 }
+double subtract(double num1,double num2){
+ return num1-num2;
+
+
+}
 int main()
 {
     double a,b;
@@ -19,8 +24,9 @@ int main()
     cin>>b;
     cout<<"the sum is:"<<a+b<<endl;
 
-    cout<<"the ratio is"<<divide(a,b)<<endl;
-    cout<<multiply(a,b)<<endl;
+    cout<<"the ratio is:"<<divide(a,b)<<endl;
+    cout<<"the product is:"<<multiply(a,b)<<endl;
+    cout<<"the subtraction is:"<<subtract(a,b)<<endl;
 
     return 0;
 }
