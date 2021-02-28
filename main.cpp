@@ -1,6 +1,9 @@
 #include <iostream>
 
 using namespace std;
+double square(int num1){
+return num1*num1;
+}
 void y(string name,int num){
 cout<<name<<endl;
 cout<<num+1<<endl;
@@ -26,6 +29,7 @@ int main()
     y("me",20);
     x("why",1);
     cout<<cube(2);
+ cout<<square(2);
 
 
     return 0;
