@@ -27,6 +27,7 @@ int main()
     cout<<"the ratio is:"<<divide(a,b)<<endl;
     cout<<"the product is:"<<multiply(a,b)<<endl;
     cout<<"the subtraction is:"<<subtract(a,b)<<endl;
+    cout<<a+b;
 
     return 0;
 }
