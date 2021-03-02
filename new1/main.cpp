@@ -28,6 +28,7 @@ int main()
     cout<<"the product is:"<<multiply(a,b)<<endl;
     cout<<"the subtraction is:"<<subtract(a,b)<<endl;
     cout<<a+b;
+    cout<<a*b;
 
     return 0;
 }
